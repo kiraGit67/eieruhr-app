@@ -15,5 +15,27 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 65px;
-  color: white;
+  color: #ffed00;
+}
+
+.ready {
+  color: #ff5500;
+  font-weight: 600;
+  text-shadow: 0 0 15px #ffed00;
+}
+
+button#start-button {
+  padding: 0.5rem 3.5rem;
+  background-color: #ffcc00;
+  border: 2px solid #ffee00;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+button#start-button:hover {
+  color: #ffee00;
+  background-color: #262626;
 }
